@@ -28,6 +28,17 @@ public static final int PROFILE_RADIUS = 80;
 BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userProfileUrl).openStream(), SharedImageUtils.PROFILE_RADIUS);
 ```
 #### 4.2 背景图上绘画头像
+```java code
+//頭像旁邊附帶文字(ps:字体是微软雅黑，linux不具备有，需要安装，)  
+BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,  
+  roundedImage,  
+  nickName + " 为你推荐网批货源",  
+  SharedImageUtils.PROFILE_X,  
+  SharedImageUtils.PROFILE_Y,  
+  SharedImageUtils.PROFILE_RADIUS,  
+  SharedImageUtils.PROFILE_RADIUS); 
+```
+
 
 
 
@@ -35,7 +46,7 @@ BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userPro
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMzNTg2MjYsLTI0MDg2NDI4MCw5Nz
-YxNTQwNzQsLTY1MDU1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2
-MzgyXX0=
+eyJoaXN0b3J5IjpbODkxNDQ4NjkxLC0yNDA4NjQyODAsOTc2MT
+U0MDc0LC02NTA1NTAxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4
+Ml19
 -->
