@@ -5,10 +5,11 @@
 
 ### 2.开发环境
 #### 2.1 JDK
-	* oracle‘s jdk 1.8以上(~~)
+	* oracle‘s jdk 1.8以上
+	*若部署到Li
 
 
-### 3. 加载背景
+### 3. 加载背景111
 #### 3.1  加载背景图
 这是使用白色框底来作背景图[^1].
 
@@ -20,6 +21,6 @@
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA4MzAxODAsLTY1MDU1MDEyNCwtMT
-Q3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
+eyJoaXN0b3J5IjpbNTc2NzA5MzkyLC02NTA1NTAxMjQsLTE0Nz
+Y4OTI1OTIsLTIyNzExNjM4Ml19
 -->
