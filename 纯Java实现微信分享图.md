@@ -25,7 +25,8 @@ public static final int PROFILE_RADIUS = 80;
 ```
 ``` java code
 // 2. 头像裁剪成圆形  
-BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userProfileUrl).openStream(), SharedImageUtils.PROFILE_RADIUS);
+BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userProfileUrl).openStream(),
+ SharedImageUtils.PROFILE_RADIUS);
 ```
 #### 4.2 背景图上绘画头像
 ```java code
@@ -46,7 +47,7 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxNDQ4NjkxLC0yNDA4NjQyODAsOTc2MT
+eyJoaXN0b3J5IjpbNDAxMjA1MjUzLC0yNDA4NjQyODAsOTc2MT
 U0MDc0LC02NTA1NTAxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4
 Ml19
 -->
