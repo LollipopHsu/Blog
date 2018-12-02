@@ -29,7 +29,13 @@ BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userPro
 							 SharedImageUtils.PROFILE_RADIUS);
 ```
 #### 4.2 背景图上绘画头像
-
+绘画位置
+```
+/* 要放置的头像y坐标 */
+ public static final int PROFILE_Y = 1056;
+/* 要放置的头像X坐标 */
+ public static final int PROFILE_X = 90; 
+```
 ```java code
 //頭像旁邊附帶文字(ps:字体是微软雅黑，linux不具备有，需要安装，)  
 BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,  
@@ -48,7 +54,7 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODIxMTc3NSwtMjQwODY0MjgwLDk3Nj
-E1NDA3NCwtNjUwNTUwMTI0LC0xNDc2ODkyNTkyLC0yMjcxMTYz
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQ2OTIyOTYsLTI0MDg2NDI4MCw5Nz
+YxNTQwNzQsLTY1MDU1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2
+MzgyXX0=
 -->
