@@ -16,7 +16,7 @@
 InputStream background = null
 BufferedImage zoomPicture = ImageIO.read(background);
 ```
-### 4. 头像的实现
+### 4. 圆头像的实现
 #### 4.1 头像裁剪
 头像裁剪成半径
 ```
@@ -35,7 +35,7 @@ BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userPro
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzMDAzNjg4LC0yNDA4NjQyODAsOTc2MT
-U0MDc0LC02NTA1NTAxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4
-Ml19
+eyJoaXN0b3J5IjpbLTEyMTMzNTg2MjYsLTI0MDg2NDI4MCw5Nz
+YxNTQwNzQsLTY1MDU1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2
+MzgyXX0=
 -->
