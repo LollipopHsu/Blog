@@ -6,7 +6,7 @@
 ### 2.开发环境
 #### 2.1 JDK
 	* oracle‘s jdk 1.8以上
-	*若部署到Li
+	*若代码部署到Linux，则需要安装微软雅黑字体 
 
 
 ### 3. 加载背景111
@@ -21,6 +21,6 @@
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2NzA5MzkyLC02NTA1NTAxMjQsLTE0Nz
-Y4OTI1OTIsLTIyNzExNjM4Ml19
+eyJoaXN0b3J5IjpbLTExMzMwMzg2NzAsLTY1MDU1MDEyNCwtMT
+Q3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
 -->
