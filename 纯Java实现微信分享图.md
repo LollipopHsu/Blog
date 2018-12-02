@@ -10,9 +10,9 @@
 
 
 
-[^1]:![enter image description here](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg![enter image description here](https://lh3.googleusercontent.com/MN4XCHyo4MRyNKGXpgw2mvF-N_gQqw67_NHG_lQexfGMh-oNFaa15yk2lLvCb9qP9l7uZnoQ8D0 "background")")
+[^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjUwNTg5MCwtNjUwNTUwMTI0LC0xND
-c2ODkyNTkyLC0yMjcxMTYzODJdfQ==
+eyJoaXN0b3J5IjpbLTEzMjQ1ODk0ODUsLTY1MDU1MDEyNCwtMT
+Q3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
 -->
