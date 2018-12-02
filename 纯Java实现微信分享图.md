@@ -16,8 +16,11 @@
 InputStream background = null
 BufferedImage zoomPicture = ImageIO.read(background);
 ```
-### 4. c头像
-
+### 4. 绘画头像
+``` java code
+// 2. 头像裁剪成圆形  
+BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userProfileUrl).openStream(), SharedImageUtils.PROFILE_RADIUS);
+```
 
 
 
@@ -25,6 +28,6 @@ BufferedImage zoomPicture = ImageIO.read(background);
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NjM0ODAsOTc2MTU0MDc0LC02NTA1NT
-AxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4Ml19
+eyJoaXN0b3J5IjpbLTE0NzIzMDEzOTgsOTc2MTU0MDc0LC02NT
+A1NTAxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4Ml19
 -->
