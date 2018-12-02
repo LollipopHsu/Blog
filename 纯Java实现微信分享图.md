@@ -5,7 +5,7 @@
 
 ### 2. 加载背景
 #### 2.1 
-这是使用的背景图[^1]是白色框底
+这是使用的背景图[^1]是白色框底.
 
 
 
@@ -13,6 +13,6 @@
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ1ODk0ODUsLTY1MDU1MDEyNCwtMT
-Q3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
+eyJoaXN0b3J5IjpbLTEwNTk2OTIwOSwtNjUwNTUwMTI0LC0xND
+c2ODkyNTkyLC0yMjcxMTYzODJdfQ==
 -->
