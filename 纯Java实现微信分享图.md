@@ -9,7 +9,7 @@
 #### 2.2 字体
 	* 若选择了微软雅黑字体又是代码部署到Linux，则需要安装微软雅黑字体，字体安装方式自行google
 ### 3. 加载背景
-#### 3.1  加载背景图
+#### 32.1  加载背景图
 这是使用白色框底来作背景图[^1].
 ```java code
 //这里从项目resources加载背景图，读文件到输入流，代码作了简列
@@ -52,9 +52,10 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
 
 
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
+这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ2OTIyOTYsLTI0MDg2NDI4MCw5Nz
-YxNTQwNzQsLTY1MDU1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2
-MzgyXX0=
+eyJoaXN0b3J5IjpbLTIwMTc5OTUwNTEsLTEzNDQ2OTIyOTYsLT
+I0MDg2NDI4MCw5NzYxNTQwNzQsLTY1MDU1MDEyNCwtMTQ3Njg5
+MjU5MiwtMjI3MTE2MzgyXX0=
 -->
