@@ -18,7 +18,7 @@ BufferedImage zoomPicture = ImageIO.read(background);
 ```
 ### 4. 绘画头像
 #### 4.1 头像裁剪
-头像
+头像裁剪成半径为
 ``` java code
 // 2. 头像裁剪成圆形  
 BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userProfileUrl).openStream(), SharedImageUtils.PROFILE_RADIUS);
@@ -30,6 +30,6 @@ BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userPro
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzY5NDM0Miw5NzYxNTQwNzQsLTY1MD
-U1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
+eyJoaXN0b3J5IjpbNjY3NTExNzc3LDk3NjE1NDA3NCwtNjUwNT
+UwMTI0LC0xNDc2ODkyNTkyLC0yMjcxMTYzODJdfQ==
 -->
