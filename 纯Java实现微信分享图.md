@@ -5,7 +5,7 @@
 
 ### 2.开发环境
 #### 2.1 JDK
-	* 
+	* oracle‘s jdk 1.8以上[^]
 
 
 ### 3. 加载背景
@@ -20,6 +20,6 @@
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU0NjAwMTUsLTY1MDU1MDEyNCwtMT
+eyJoaXN0b3J5IjpbLTExMTExOTcxNTcsLTY1MDU1MDEyNCwtMT
 Q3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
 -->
