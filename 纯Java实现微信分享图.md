@@ -16,7 +16,7 @@
 InputStream background = null
 BufferedImage zoomPicture = ImageIO.read(background);
 ```
-
+### 4.
 
 
 
@@ -25,6 +25,6 @@ BufferedImage zoomPicture = ImageIO.read(background);
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg5OTgzNyw5NzYxNTQwNzQsLTY1MD
-U1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
+eyJoaXN0b3J5IjpbLTE0MDgwNjcyMDYsOTc2MTU0MDc0LC02NT
+A1NTAxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4Ml19
 -->
