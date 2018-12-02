@@ -7,10 +7,11 @@
 #### 2.1 JDK
 	* oracle‘s jdk 1.8以上
 #### 2.2 字体
-	* 若选择了微软雅黑字体又是代码部署到Linux，则需要安装微软雅黑字体 
-### 3. 加载背景111
+	* 若选择了微软雅黑字体又是代码部署到Linux，则需要安装微软雅黑字体，字体安装方式自行google
+### 3. 加载背景
 #### 3.1  加载背景图
 这是使用白色框底来作背景图[^1].
+
 
 
 
@@ -20,6 +21,6 @@
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4Mjk2NDU0MCwtNjUwNTUwMTI0LC0xND
-c2ODkyNTkyLC0yMjcxMTYzODJdfQ==
+eyJoaXN0b3J5IjpbOTc2MTU0MDc0LC02NTA1NTAxMjQsLTE0Nz
+Y4OTI1OTIsLTIyNzExNjM4Ml19
 -->
