@@ -12,7 +12,7 @@
 #### 3.1  加载背景图
 这是使用白色框底来作背景图[^1].
 ```java code
-
+BufferedImage zoomPicture = ImageIO.read(background);
 ```
 
 
@@ -23,6 +23,6 @@
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDE1Mzk5NSw5NzYxNTQwNzQsLTY1MD
+eyJoaXN0b3J5IjpbMjExMjU1MzU2NCw5NzYxNTQwNzQsLTY1MD
 U1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
 -->
