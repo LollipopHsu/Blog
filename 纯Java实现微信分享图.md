@@ -60,12 +60,12 @@ public static final int SHOP_PIC_WIDTH = 900;
 public static final int SHOP_PIC_LENGTH = 950;
 ```
 #### 5.2  绘画图案
-```java
+``` java
 shopImage = SharedImageUtils.mergePicture(profileImage, shopImage, null,  
   SharedImageUtils.SHOP_PIC_X,  
   SharedImageUtils.SHOP_PIC_Y,  
   SharedImageUtils.SHOP_PIC_WIDTH, SharedImageUtils.SHOP_PIC_LENGTH);
-  ```
+```
   
 
 
@@ -76,8 +76,8 @@ shopImage = SharedImageUtils.mergePicture(profileImage, shopImage, null,
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjI1MzI3MCw1NTY5MzE2MjUsMjA0MT
-gwODA1MywtOTgyODQzODk3LC0yMDE3OTk1MDUxLC0xMzQ0Njky
-Mjk2LC0yNDA4NjQyODAsOTc2MTU0MDc0LC02NTA1NTAxMjQsLT
-E0NzY4OTI1OTIsLTIyNzExNjM4Ml19
+eyJoaXN0b3J5IjpbLTU3MTk1MTIwNCwyMDY2MjUzMjcwLDU1Nj
+kzMTYyNSwyMDQxODA4MDUzLC05ODI4NDM4OTcsLTIwMTc5OTUw
+NTEsLTEzNDQ2OTIyOTYsLTI0MDg2NDI4MCw5NzYxNTQwNzQsLT
+Y1MDU1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
 -->
