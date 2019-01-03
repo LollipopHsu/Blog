@@ -51,11 +51,13 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
 
 
 
+
 [^1]: [link](https://picasaweb.google.com/106437634114917759264/6630213808569212145#6630213806186676098 "background.jpg)
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Mjg0Mzg5NywtMjAxNzk5NTA1MSwtMT
-M0NDY5MjI5NiwtMjQwODY0MjgwLDk3NjE1NDA3NCwtNjUwNTUw
-MTI0LC0xNDc2ODkyNTkyLC0yMjcxMTYzODJdfQ==
+eyJoaXN0b3J5IjpbMjA0MTgwODA1MywtOTgyODQzODk3LC0yMD
+E3OTk1MDUxLC0xMzQ0NjkyMjk2LC0yNDA4NjQyODAsOTc2MTU0
+MDc0LC02NTA1NTAxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4Ml
+19
 -->
