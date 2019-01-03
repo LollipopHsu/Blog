@@ -47,6 +47,18 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
   SharedImageUtils.PROFILE_RADIUS); 
 ```
 #### 5. 商品图案的显示
+绘画的位置和长宽
+```java
+public static final int COPYWRITER_X = 150;  
+/* 商店图案Y位置 */  
+public static final int SHOP_PIC_Y = 70;  
+/*商店图案位置*/  
+public static final int SHOP_PIC_X = 93;  
+/* 商店图案寬度 */  
+public static final int SHOP_PIC_WIDTH = 900;  
+/* 商店图案長度 */  
+public static final int SHOP_PIC_LENGTH = 950;
+```
 
 
 
@@ -57,8 +69,8 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTg0NTk5NDUsMjA0MTgwODA1MywtOT
-gyODQzODk3LC0yMDE3OTk1MDUxLC0xMzQ0NjkyMjk2LC0yNDA4
-NjQyODAsOTc2MTU0MDc0LC02NTA1NTAxMjQsLTE0NzY4OTI1OT
-IsLTIyNzExNjM4Ml19
+eyJoaXN0b3J5IjpbNTU2OTMxNjI1LDIwNDE4MDgwNTMsLTk4Mj
+g0Mzg5NywtMjAxNzk5NTA1MSwtMTM0NDY5MjI5NiwtMjQwODY0
+MjgwLDk3NjE1NDA3NCwtNjUwNTUwMTI0LC0xNDc2ODkyNTkyLC
+0yMjcxMTYzODJdfQ==
 -->
