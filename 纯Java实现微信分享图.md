@@ -46,7 +46,7 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
   SharedImageUtils.PROFILE_RADIUS,  
   SharedImageUtils.PROFILE_RADIUS); 
 ```
-
+####
 
 
 
@@ -56,8 +56,8 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTgwODA1MywtOTgyODQzODk3LC0yMD
-E3OTk1MDUxLC0xMzQ0NjkyMjk2LC0yNDA4NjQyODAsOTc2MTU0
-MDc0LC02NTA1NTAxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4Ml
-19
+eyJoaXN0b3J5IjpbLTE5NzI1NTc4MzUsMjA0MTgwODA1MywtOT
+gyODQzODk3LC0yMDE3OTk1MDUxLC0xMzQ0NjkyMjk2LC0yNDA4
+NjQyODAsOTc2MTU0MDc0LC02NTA1NTAxMjQsLTE0NzY4OTI1OT
+IsLTIyNzExNjM4Ml19
 -->
