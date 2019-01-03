@@ -74,7 +74,28 @@ BufferedImage textImage = SharedImageUtils.drawTextInImage(shopImage, "档口: "
 BufferedImage mergeImage = SharedImageUtils.drawTextInImage(textImage, "地址: " + shopAddr, 150, 1280);  
 ```
 ### 7. 二维码的显示
-#### 7.1 二维码的大小
+#### 7.1 二维码的大小与位置
+```java
+/* 要放置的二维码寬度 */  
+public static final int QRCODE_WIDTH = 230;  
+/* 要放置的二维码長度 */  
+public static final int QRCODE_LENGTH = 230;  
+/* 要放置的二维码Y位置 往下为大值，往上为小值 */  
+public static final int QRCODE_Y = 1070;  
+/*要放置的二维码X位置 往下为大值，往上为小值 */  
+public static final int QRCODE_X = 740;
+```
+#### 7.2  二维码的绘画
+```java
+BufferedImage shopQrBuffer = ImageIO.read(new URL(shopQrUrl));  
+mergeImage = SharedImageUtils.mergeQrcode(mergeImage,  
+  shopQrBuffer,  
+  "扫描或长按小程序码",  
+  SharedImageUtils.QRCODE_X,  
+  SharedImageUtils.QRCODE_Y,  
+  SharedImageUtils.QRCODE_WIDTH,  
+  SharedImageUtils.QRCODE_LENGTH);
+  ```
 
   
 
@@ -86,7 +107,7 @@ BufferedImage mergeImage = SharedImageUtils.drawTextInImage(textImage, "地址: 
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwMzYwODI0LDIwNjYyNTMyNzAsNTU2OT
+eyJoaXN0b3J5IjpbNzI4MDkzMTg3LDIwNjYyNTMyNzAsNTU2OT
 MxNjI1LDIwNDE4MDgwNTMsLTk4Mjg0Mzg5NywtMjAxNzk5NTA1
 MSwtMTM0NDY5MjI5NiwtMjQwODY0MjgwLDk3NjE1NDA3NCwtNj
 UwNTUwMTI0LC0xNDc2ODkyNTkyLC0yMjcxMTYzODJdfQ==
