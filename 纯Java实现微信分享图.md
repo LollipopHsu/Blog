@@ -66,7 +66,13 @@ shopImage = SharedImageUtils.mergePicture(profileImage, shopImage, null,
   SharedImageUtils.SHOP_PIC_Y,  
   SharedImageUtils.SHOP_PIC_WIDTH, SharedImageUtils.SHOP_PIC_LENGTH);
 ```
-### 6. 文案的 
+### 6. 文案的显示
+#### 6.1  文案绘画的位置与字体大小
+```java
+BufferedImage textImage = SharedImageUtils.drawTextInImage(shopImage, "档口: " + shopName, 150, 1200);  
+//添加文案  
+BufferedImage mergeImage = SharedImageUtils.drawTextInImage(textImage, "地址: " + shopAddr, 150, 1280);  
+```
   
 
 
@@ -77,7 +83,7 @@ shopImage = SharedImageUtils.mergePicture(profileImage, shopImage, null,
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDU1NTc3MiwyMDY2MjUzMjcwLDU1Nj
+eyJoaXN0b3J5IjpbLTQ0MTYzMzYxNiwyMDY2MjUzMjcwLDU1Nj
 kzMTYyNSwyMDQxODA4MDUzLC05ODI4NDM4OTcsLTIwMTc5OTUw
 NTEsLTEzNDQ2OTIyOTYsLTI0MDg2NDI4MCw5NzYxNTQwNzQsLT
 Y1MDU1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
