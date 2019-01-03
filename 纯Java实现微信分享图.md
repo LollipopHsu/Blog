@@ -96,7 +96,11 @@ mergeImage = SharedImageUtils.mergeQrcode(mergeImage,
   SharedImageUtils.QRCODE_WIDTH,  
   SharedImageUtils.QRCODE_LENGTH);
  ```
- 
+ #### 8. 最终的分享图
+ ```java
+ // 5. 生成分享图  
+ImageIO.write(mergeImage, "jpg", response.getOutputStream());
+```
 
   
 
@@ -108,8 +112,8 @@ mergeImage = SharedImageUtils.mergeQrcode(mergeImage,
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1MDE4MjYxLDIwNjYyNTMyNzAsNTU2OT
-MxNjI1LDIwNDE4MDgwNTMsLTk4Mjg0Mzg5NywtMjAxNzk5NTA1
-MSwtMTM0NDY5MjI5NiwtMjQwODY0MjgwLDk3NjE1NDA3NCwtNj
-UwNTUwMTI0LC0xNDc2ODkyNTkyLC0yMjcxMTYzODJdfQ==
+eyJoaXN0b3J5IjpbLTE2NTAzMzAxNjQsMjA2NjI1MzI3MCw1NT
+Y5MzE2MjUsMjA0MTgwODA1MywtOTgyODQzODk3LC0yMDE3OTk1
+MDUxLC0xMzQ0NjkyMjk2LC0yNDA4NjQyODAsOTc2MTU0MDc0LC
+02NTA1NTAxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4Ml19
 -->
