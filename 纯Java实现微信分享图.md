@@ -95,7 +95,8 @@ mergeImage = SharedImageUtils.mergeQrcode(mergeImage,
   SharedImageUtils.QRCODE_Y,  
   SharedImageUtils.QRCODE_WIDTH,  
   SharedImageUtils.QRCODE_LENGTH);
-  ```
+ ```
+ 
 
   
 
@@ -107,7 +108,7 @@ mergeImage = SharedImageUtils.mergeQrcode(mergeImage,
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4MDkzMTg3LDIwNjYyNTMyNzAsNTU2OT
+eyJoaXN0b3J5IjpbNzc1MDE4MjYxLDIwNjYyNTMyNzAsNTU2OT
 MxNjI1LDIwNDE4MDgwNTMsLTk4Mjg0Mzg5NywtMjAxNzk5NTA1
 MSwtMTM0NDY5MjI5NiwtMjQwODY0MjgwLDk3NjE1NDA3NCwtNj
 UwNTUwMTI0LC0xNDc2ODkyNTkyLC0yMjcxMTYzODJdfQ==
