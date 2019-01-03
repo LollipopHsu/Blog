@@ -9,7 +9,7 @@
 #### 2.2 字体
 	* 若选择了微软雅黑字体又是代码部署到Linux，则需要安装微软雅黑字体，字体安装方式自行google
 ### 3. 加载背景
-#### 32.1  加载背景图
+#### 3.1  加载背景图
 这是使用白色框底来作背景图[^1].
 ```java code
 //这里从项目resources加载背景图，读文件到输入流，代码作了简列
@@ -46,7 +46,8 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
   SharedImageUtils.PROFILE_RADIUS,  
   SharedImageUtils.PROFILE_RADIUS); 
 ```
-####
+#### 5. 商品图案的显示
+
 
 
 
@@ -56,7 +57,7 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI1NTc4MzUsMjA0MTgwODA1MywtOT
+eyJoaXN0b3J5IjpbLTE3MTg0NTk5NDUsMjA0MTgwODA1MywtOT
 gyODQzODk3LC0yMDE3OTk1MDUxLC0xMzQ0NjkyMjk2LC0yNDA4
 NjQyODAsOTc2MTU0MDc0LC02NTA1NTAxMjQsLTE0NzY4OTI1OT
 IsLTIyNzExNjM4Ml19
