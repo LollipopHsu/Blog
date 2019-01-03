@@ -19,24 +19,24 @@ BufferedImage zoomPicture = ImageIO.read(background);
 ### 4. 圆头像的实现
 #### 4.1 头像裁剪
 头像裁剪成半径
-```
+```java
 //头像半径
 public static final int PROFILE_RADIUS = 80;
 ```
-``` java code
+```java
 // 2. 头像裁剪成圆形  
 BufferedImage roundedImage = SharedImageUtils.createRoundedImage(new URL(userProfileUrl).openStream(),
 							 SharedImageUtils.PROFILE_RADIUS);
 ```
 #### 4.2 背景图上绘画头像
 绘画位置
-```
+```java
 /* 要放置的头像y坐标 */
  public static final int PROFILE_Y = 1056;
 /* 要放置的头像X坐标 */
  public static final int PROFILE_X = 90; 
 ```
-```java code
+```java
 //頭像旁邊附帶文字(ps:字体是微软雅黑，linux不具备有，需要安装，)  
 BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,  
   roundedImage,  
@@ -55,7 +55,7 @@ BufferedImage profileImage = SharedImageUtils.mergePicture(zoomPicture,
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc5OTUwNTEsLTEzNDQ2OTIyOTYsLT
-I0MDg2NDI4MCw5NzYxNTQwNzQsLTY1MDU1MDEyNCwtMTQ3Njg5
-MjU5MiwtMjI3MTE2MzgyXX0=
+eyJoaXN0b3J5IjpbLTk4Mjg0Mzg5NywtMjAxNzk5NTA1MSwtMT
+M0NDY5MjI5NiwtMjQwODY0MjgwLDk3NjE1NDA3NCwtNjUwNTUw
+MTI0LC0xNDc2ODkyNTkyLC0yMjcxMTYzODJdfQ==
 -->
