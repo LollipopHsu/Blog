@@ -73,6 +73,9 @@ BufferedImage textImage = SharedImageUtils.drawTextInImage(shopImage, "档口: "
 //添加文案  
 BufferedImage mergeImage = SharedImageUtils.drawTextInImage(textImage, "地址: " + shopAddr, 150, 1280);  
 ```
+### 7. 二维码的显示
+#### 7.1 二维码的大小
+
   
 
 
@@ -83,8 +86,8 @@ BufferedImage mergeImage = SharedImageUtils.drawTextInImage(textImage, "地址: 
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTYzMzYxNiwyMDY2MjUzMjcwLDU1Nj
-kzMTYyNSwyMDQxODA4MDUzLC05ODI4NDM4OTcsLTIwMTc5OTUw
-NTEsLTEzNDQ2OTIyOTYsLTI0MDg2NDI4MCw5NzYxNTQwNzQsLT
-Y1MDU1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3MTE2MzgyXX0=
+eyJoaXN0b3J5IjpbNTMwMzYwODI0LDIwNjYyNTMyNzAsNTU2OT
+MxNjI1LDIwNDE4MDgwNTMsLTk4Mjg0Mzg5NywtMjAxNzk5NTA1
+MSwtMTM0NDY5MjI5NiwtMjQwODY0MjgwLDk3NjE1NDA3NCwtNj
+UwNTUwMTI0LC0xNDc2ODkyNTkyLC0yMjcxMTYzODJdfQ==
 -->
