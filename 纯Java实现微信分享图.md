@@ -102,7 +102,8 @@ mergeImage = SharedImageUtils.mergeQrcode(mergeImage,
 ImageIO.write(mergeImage, "jpg", response.getOutputStream());
 ```
 
-  
+  #### 9. 源码
+  * https://github.com/SteamPako/sharedImagas.git
 
 
 
@@ -112,8 +113,9 @@ ImageIO.write(mergeImage, "jpg", response.getOutputStream());
 这是使用的背景图是白色框底
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAzMzAxNjQsMjA2NjI1MzI3MCw1NT
-Y5MzE2MjUsMjA0MTgwODA1MywtOTgyODQzODk3LC0yMDE3OTk1
-MDUxLC0xMzQ0NjkyMjk2LC0yNDA4NjQyODAsOTc2MTU0MDc0LC
-02NTA1NTAxMjQsLTE0NzY4OTI1OTIsLTIyNzExNjM4Ml19
+eyJoaXN0b3J5IjpbMTg0NTQ3MTM1MywtMTY1MDMzMDE2NCwyMD
+Y2MjUzMjcwLDU1NjkzMTYyNSwyMDQxODA4MDUzLC05ODI4NDM4
+OTcsLTIwMTc5OTUwNTEsLTEzNDQ2OTIyOTYsLTI0MDg2NDI4MC
+w5NzYxNTQwNzQsLTY1MDU1MDEyNCwtMTQ3Njg5MjU5MiwtMjI3
+MTE2MzgyXX0=
 -->
